@@ -83,7 +83,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: push-oot-kmods-to-s3
-      image: quay.io/konflux-ci/release-service-utils@sha256:3f01d7c4ffc4d59cb54d6661031aae9adfa5c5da7e7b65aa4be02cb7e7ac4b13
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:c5be2111077064483e7dc84a33238f1a14d858ce16c039b41a0ae34cf9f8bff5
       computeResources:
         limits:
           memory: 768Mi

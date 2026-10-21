@@ -82,7 +82,7 @@ spec:
       runAsUser: 1001
   steps:
     - name: filter-rpms
-      image: quay.io/konflux-ci/release-service-utils@sha256:5546fa78d3c88d7b6a2e8cff8902f7757f00541d0bbaf113b9f293133894afa3
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:c5be2111077064483e7dc84a33238f1a14d858ce16c039b41a0ae34cf9f8bff5
       computeResources:
         limits:
           memory: 512Mi
